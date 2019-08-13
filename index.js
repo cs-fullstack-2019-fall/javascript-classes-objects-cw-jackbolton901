@@ -8,6 +8,7 @@ class Repository
         this.codestr= code;
     }
     printProps(){
+        
         console.log(this.usernamestr);
         console.log(this.filenamestr);
         console.log(this.descripstr);
@@ -16,13 +17,13 @@ class Repository
 
 }
 let myRepository = new Repository("jackbolton901","JavaScript", "Classwork","While loops");
-myRepository.printProps()
+myRepository.printProps();
 
 
 // Problem 2
- class Movies
- {
-    constructor(movieName, rating, releaseYear,);
-
-
- }
+//  class Movies
+//  {
+//     constructor(movieName, rating, releaseYear,);
+//
+//
+//  }
